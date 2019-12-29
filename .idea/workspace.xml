@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fc7e534d-f69a-4d4f-8b0e-9da6c534cad9" name="Default Changelist" comment="" />
+    <list default="true" id="fc7e534d-f69a-4d4f-8b0e-9da6c534cad9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,6 +26,7 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1VfPmjQTdb5KBuvYPtzh0QWwt9v" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -113,5 +116,9 @@
     </state>
     <state width="1218" height="166" key="GridCell.Tab.0.right/0.23.1280.715@0.23.1280.715" timestamp="1577641951341" />
     <state width="1218" height="166" key="GridCell.Tab.0.right/0.23.1280.716@0.23.1280.716" timestamp="1577649677192" />
+    <state x="240" y="124" key="Vcs.Push.Dialog.v2" timestamp="1577649957460">
+      <screen x="0" y="23" width="1280" height="716" />
+    </state>
+    <state x="240" y="124" key="Vcs.Push.Dialog.v2/0.23.1280.716@0.23.1280.716" timestamp="1577649957460" />
   </component>
 </project>
