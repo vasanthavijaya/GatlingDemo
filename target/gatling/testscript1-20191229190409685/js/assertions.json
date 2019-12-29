@@ -1,0 +1,10 @@
+{
+  "simulation": "MyTestPackage.TestScript1",
+  "simulationId": "testscript1",
+  "start": 1577646249685,
+  "description": "",
+  "scenarios": ["TestScript1"],
+  "assertions": [
+
+  ]
+}
