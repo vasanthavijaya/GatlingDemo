@@ -10,6 +10,9 @@
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -90,25 +93,25 @@
       <screen x="0" y="23" width="1280" height="716" />
     </state>
     <state x="378" y="138" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1280.716@0.23.1280.716" timestamp="1577645546404" />
-    <state width="1218" height="166" key="GridCell.Tab.0.bottom" timestamp="1577646880521">
+    <state width="1218" height="166" key="GridCell.Tab.0.bottom" timestamp="1577649677192">
       <screen x="0" y="23" width="1280" height="716" />
     </state>
     <state width="1218" height="166" key="GridCell.Tab.0.bottom/0.23.1280.715@0.23.1280.715" timestamp="1577641951341" />
-    <state width="1218" height="166" key="GridCell.Tab.0.bottom/0.23.1280.716@0.23.1280.716" timestamp="1577646880521" />
-    <state width="1218" height="166" key="GridCell.Tab.0.center" timestamp="1577646880520">
+    <state width="1218" height="166" key="GridCell.Tab.0.bottom/0.23.1280.716@0.23.1280.716" timestamp="1577649677192" />
+    <state width="1218" height="166" key="GridCell.Tab.0.center" timestamp="1577649677191">
       <screen x="0" y="23" width="1280" height="716" />
     </state>
     <state width="1218" height="166" key="GridCell.Tab.0.center/0.23.1280.715@0.23.1280.715" timestamp="1577641951340" />
-    <state width="1218" height="166" key="GridCell.Tab.0.center/0.23.1280.716@0.23.1280.716" timestamp="1577646880520" />
-    <state width="1218" height="166" key="GridCell.Tab.0.left" timestamp="1577646880519">
+    <state width="1218" height="166" key="GridCell.Tab.0.center/0.23.1280.716@0.23.1280.716" timestamp="1577649677191" />
+    <state width="1218" height="166" key="GridCell.Tab.0.left" timestamp="1577649677191">
       <screen x="0" y="23" width="1280" height="716" />
     </state>
     <state width="1218" height="166" key="GridCell.Tab.0.left/0.23.1280.715@0.23.1280.715" timestamp="1577641951339" />
-    <state width="1218" height="166" key="GridCell.Tab.0.left/0.23.1280.716@0.23.1280.716" timestamp="1577646880519" />
-    <state width="1218" height="166" key="GridCell.Tab.0.right" timestamp="1577646880520">
+    <state width="1218" height="166" key="GridCell.Tab.0.left/0.23.1280.716@0.23.1280.716" timestamp="1577649677191" />
+    <state width="1218" height="166" key="GridCell.Tab.0.right" timestamp="1577649677192">
       <screen x="0" y="23" width="1280" height="716" />
     </state>
     <state width="1218" height="166" key="GridCell.Tab.0.right/0.23.1280.715@0.23.1280.715" timestamp="1577641951341" />
-    <state width="1218" height="166" key="GridCell.Tab.0.right/0.23.1280.716@0.23.1280.716" timestamp="1577646880520" />
+    <state width="1218" height="166" key="GridCell.Tab.0.right/0.23.1280.716@0.23.1280.716" timestamp="1577649677192" />
   </component>
 </project>
