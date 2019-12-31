@@ -6,20 +6,6 @@ import io.gatling.http.Predef._
 class APITest extends Simulation {
   val baseUrl = "https://nitestaz.planninginspectorate.gov.uk"
 
-/*
-  val accessgen = http
-    .exec (http ("GenAccToken")
-    .post (baseUrl + "?oauth=token")
-    .formParam ("grant_type", "password")
-    .formParam ("username", "horizon")
-    .formParam ("password", "YuRgetM32do?")
-    .headers (sessionHeaders)
-    .check (status is 200)
-    .check (bodyString.saveAs ("BODY") )
-    .check (jsonPath ("$.access_token").exists.saveAs ("authToken") ) )
-
-*/
-
   val sessionHeaders = Map("Authorization" -> "Basic RGQ3aVMxV2M3aHVNVnhadjVuNzZtZHB5ZHo5V3diOjQ5b2NzaGRvdGtHWTZDdzY4QnVmSFF0N3BHR3lEYw==")
 
   val httpProtocol = http
@@ -44,9 +30,9 @@ class APITest extends Simulation {
 
     setUp(scn.inject(constantUsersPerSec(2) during(10))).protocols(httpProtocol)
     .assertions(
-      global.responseTime.max.lt(1000),
-      forAll.responseTime.max.lt(1000),
-      details("GetSubmissions").responseTime.max.lt(1000),
+      global.responseTime.max.lt(4000),
+      forAll.responseTime.max.lt(4000),
+      details("GetSubmissions").responseTime.max.lt(4000),
       global.successfulRequests.percent.is(100),
       global.failedRequests.percent.is(0)
     )

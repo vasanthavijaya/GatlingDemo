@@ -97,9 +97,9 @@ import scala.util.Random
       //scn.inject(rampConcurrentUsers(0) to (4) during(10),constantConcurrentUsers(4) during(60))
     ).protocols(httpProtocol)
       .assertions(
-        global.responseTime.max.lt(1000),
-        forAll.responseTime.max.lt(1000),
-        details("BookFlight").responseTime.max.lt(1000),
+        global.responseTime.max.lt(3000),
+        forAll.responseTime.max.lt(3000),
+        details("BookFlight").responseTime.max.lt(3000),
         global.successfulRequests.percent.is(100),
         global.failedRequests.percent.is(0)
       )
