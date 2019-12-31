@@ -42,13 +42,6 @@
                 <version>${gatling-maven-plugin.version}</version>
                 <configuration>
                     <runMultipleSimulations>true</runMultipleSimulations>
-                    <!--<includes>
-                      <param>src/test/scala/MyTestPackage/APITest.scala</param>
-                      <param>src/test/scala/MyTestPackage/TestScript1.scala</param>
-                    </includes>
-                      <excludes>
-                      <param>my.package.MySimuNotToRun</param>
-                      </excludes>-->
                 </configuration>
             </plugin>
             <plugin>
@@ -59,3 +52,12 @@
         </plugins>
     </build>
 </project>
+
+
+        <!--<includes>
+                              <param>src/test/scala/MyTestPackage/APITest.scala</param>
+                              <param>src/test/scala/MyTestPackage/TestScript1.scala</param>
+                            </includes>
+                              <excludes>
+                              <param>my.package.MySimuNotToRun</param>
+                              </excludes>-->
