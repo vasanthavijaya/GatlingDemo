@@ -1,4 +1,0 @@
-RUN	MyTestPackage.APITest	apitest	1577740481294	 	3.3.1
-USER	login_test	1	START	1577740482241	1577740482241
-REQUEST	1		login	1577740482297	1577740482837	KO	jsonPath(access_token).find.exists extraction crashed: '$' expected but 'a' found
-USER	login_test	1	END	1577740482241	1577740482937
