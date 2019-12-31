@@ -1,0 +1,4 @@
+RUN	MyTestPackage.APITest	apitest	1577734862002	 	3.3.1
+USER	RecordedSimulation	1	START	1577734863874	1577734863874
+REQUEST	1		request_0	1577734863936	1577734864443	KO	header(access_token).find.exists, found nothing
+USER	RecordedSimulation	1	END	1577734863874	1577734864515

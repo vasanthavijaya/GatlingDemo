@@ -1,0 +1,20 @@
+<testsuite name="MyTestPackage.APITest" tests="6" errors="0" failures="4" time="0">
+<testcase name="Global: max of response time is less than 1000.0" status="false" time="0">
+  <failure type="Global">Actual value: 4661.0</failure>
+</testcase>
+<testcase name="GenAccToken: max of response time is less than 1000.0" status="false" time="0">
+  <failure type="GenAccToken">Actual value: 4661.0</failure>
+</testcase>
+<testcase name="GetSubmissions: max of response time is less than 1000.0" status="false" time="0">
+  <failure type="GetSubmissions">Actual value: 3691.0</failure>
+</testcase>
+<testcase name="Could not find stats matching assertion path List(BookFlight)" status="false" time="0">
+  <failure type="BookFlight">Actual value: -1</failure>
+</testcase>
+<testcase name="Global: percentage of successful events is 100.0" status="true" time="0">
+  <system-out>Global: percentage of successful events is 100.0</system-out>
+</testcase>
+<testcase name="Global: percentage of failed events is 0.0" status="true" time="0">
+  <system-out>Global: percentage of failed events is 0.0</system-out>
+</testcase>
+</testsuite>

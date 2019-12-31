@@ -1,0 +1,90 @@
+{
+  "simulation": "MyTestPackage.TestScript1",
+  "simulationId": "testscript1",
+  "start": 1577652517197,
+  "description": "",
+  "scenarios": ["TestScript1"],
+  "assertions": [
+{
+  "path": "Global",
+  "target": "max of response time",
+  "condition": "is less than",
+  "expectedValues": [1000.0],
+  "result": false,
+  "message": "Global: max of response time is less than 1000.0",
+  "actualValue": [8433.0]
+},
+{
+  "path": "HomePage",
+  "target": "max of response time",
+  "condition": "is less than",
+  "expectedValues": [1000.0],
+  "result": false,
+  "message": "HomePage: max of response time is less than 1000.0",
+  "actualValue": [8433.0]
+},
+{
+  "path": "SearchFlight",
+  "target": "max of response time",
+  "condition": "is less than",
+  "expectedValues": [1000.0],
+  "result": true,
+  "message": "SearchFlight: max of response time is less than 1000.0",
+  "actualValue": [194.0]
+},
+{
+  "path": "SelectFlight",
+  "target": "max of response time",
+  "condition": "is less than",
+  "expectedValues": [1000.0],
+  "result": true,
+  "message": "SelectFlight: max of response time is less than 1000.0",
+  "actualValue": [181.0]
+},
+{
+  "path": "BookFlight",
+  "target": "max of response time",
+  "condition": "is less than",
+  "expectedValues": [1000.0],
+  "result": false,
+  "message": "BookFlight: max of response time is less than 1000.0",
+  "actualValue": [2370.0]
+},
+{
+  "path": "BookFlight Redirect 1",
+  "target": "max of response time",
+  "condition": "is less than",
+  "expectedValues": [1000.0],
+  "result": false,
+  "message": "BookFlight Redirect 1: max of response time is less than 1000.0",
+  "actualValue": [1569.0]
+},
+{
+  "path": "BookFlight",
+  "target": "max of response time",
+  "condition": "is less than",
+  "expectedValues": [1000.0],
+  "result": false,
+  "message": "BookFlight: max of response time is less than 1000.0",
+  "actualValue": [2370.0]
+},
+{
+  "path": "Global",
+  "target": "percentage of successful events",
+  "condition": "is",
+  "expectedValues": [100.0],
+  "result": true,
+  "message": "Global: percentage of successful events is 100.0",
+  "actualValue": [100.0]
+},
+{
+  "path": "Global",
+  "target": "percentage of failed events",
+  "condition": "is",
+  "expectedValues": [0.0],
+  "result": true,
+  "message": "Global: percentage of failed events is 0.0",
+  "actualValue": [0.0]
+}
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "simulation": "MyTestPackage.APITest",
+  "simulationId": "apitest",
+  "start": 1577734642723,
+  "description": "",
+  "scenarios": ["RecordedSimulation"],
+  "assertions": [
+
+  ]
+}

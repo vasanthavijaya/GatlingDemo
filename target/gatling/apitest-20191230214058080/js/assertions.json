@@ -1,0 +1,10 @@
+{
+  "simulation": "MyTestPackage.APITest",
+  "simulationId": "apitest",
+  "start": 1577742058080,
+  "description": "",
+  "scenarios": ["accessToken"],
+  "assertions": [
+
+  ]
+}
